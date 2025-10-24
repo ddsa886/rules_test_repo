@@ -1,8 +1,38 @@
 <!doctype html>
-<meta charset="utf-8">
-<title>Test Rules Container</title>
-<h1>Network Rules – Test Container</h1>
-<ul>
-  <a href="./mc_rules_demo.pdf">Mastercard Rules — Demo</a>
-  <!-- add more PDFs here later -->
-</ul>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Test Rules Container</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body{font:14px/1.5 system-ui,Segoe UI,Roboto,Helvetica,Arial;margin:24px;color:#111}
+    h1{font-size:20px;margin:0 0 12px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+    h2{font-size:16px;margin:0 0 8px}
+    ul{margin:0;padding-left:18px}
+    .meta{color:#666;font-size:12px;margin-top:6px}
+  </style>
+</head>
+<body>
+  <h1>Network Rules — Test Container</h1>
+  <div class="grid">
+    <section>
+      <h2>Mastercard</h2>
+      <ul>
+        <li>
+          <a href="https://raw.githubusercontent.com/ddsa886/rules_test_repo/main/mc_rules_demo.pdf" target="_blank" rel="noopener">
+            Mastercard Rules — Demo (mc_rules_demo.pdf)
+          </a>
+          <div class="meta">Stable raw URL. Overwrite the file to simulate in-place updates.</div>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Visa</h2>
+      <ul>
+        <!-- Add Visa test PDFs here when ready -->
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
